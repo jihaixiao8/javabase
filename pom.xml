@@ -12,5 +12,19 @@
         <module>javaconcurrency</module>
     </modules>
 
+    <properties>
+        <msg.pack.version>0.6.12</msg.pack.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.msgpack</groupId>
+                <artifactId>msgpack</artifactId>
+                <version>0.6.12</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
 </project>
